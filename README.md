@@ -81,25 +81,6 @@
 | [Obfuscated-MalMem2022](https://www.kaggle.com/datasets/discordnaveen/obfuscated-malmem2022) | 58,596 | 2 (malicious/benign) | Ransomware detection |
 | [Malicious URLs](https://www.kaggle.com/datasets/sid321axn/malicious-urls-dataset) | 651,191 | 3 (benign/phishing/malware/deface) | URL phishing detection |
 
----
-
-## 📊 Model Performance
-
-| Module | Model | Accuracy | Precision | Recall | F1-Score |
-|--------|-------|----------|-----------|--------|----------|
-| Attack Detection | Random Forest | 93.5% | — | — | — |
-| Attack Detection | Extra Trees | 91.2% | — | — | — |
-| Attack Detection | Decision Tree | 89.8% | — | — | — |
-| Attack Detection | Gradient Boosting | 92.1% | — | — | — |
-| Attack Detection | MLP | 90.5% | — | — | — |
-| Attack Detection | GRU/LSTM | 96.2% | — | — | — |
-| IoT | QAE (Optuna) | 99.9% | — | — | — |
-| Ransomware | KNN (Grid Search) | 99.8% | — | — | — |
-| URL | Random Forest | 97.0% | — | — | — |
-| URL | XGBoost | 97.5% | — | — | — |
-| APT | PyTorch Neural Net | 95.0% | — | — | — |
-
-> **Note:** Attack detection module supports both **binary classification** (normal vs attack — via `unsw_nb15_student.ipynb`) and **multi-class classification** (9 attack types + normal — via `Dashboard Site/backend/app.py`). The notebook and dashboard use the same RF model but differ in their target variable.
 
 ---
 
