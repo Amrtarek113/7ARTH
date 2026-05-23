@@ -1,0 +1,30 @@
+name: Build Frontend
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Cache npm
+        uses: actions/cache@v4
+        with:
+          path: Dashboard Site/frontend/node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('Dashboard Site/frontend/package-lock.json') }}
+
+      - name: Install & Build
+        run: |
+          cd "Dashboard Site/frontend"
+          npm ci
+          npm run build

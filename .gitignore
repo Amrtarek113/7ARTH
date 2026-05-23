@@ -1,0 +1,75 @@
+# ===== Datasets =====
+*.csv
+**/data/*.csv
+**/dataset/**/*.csv
+**/datasets/**/*.csv
+**/NSL_Dataset/*.txt
+!**/tiny_sample.csv
+
+# ===== Model binaries (too large for Git) =====
+*.pkl
+*.h5
+*.keras
+*.tflite
+*.pickle
+*.hdf5
+*.pth
+*.pb
+*.pbtxt
+*.pt
+*.onnx
+*.save
+!**/random_forest_model_multiclass.pkl
+!**/xgb.pkl
+!**/knn_gs.pickle
+!**/extra_trees_model.pkl
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+.venv/
+venv/
+env/
+*.whl
+
+# ===== Node / Frontend =====
+node_modules/
+.cache/
+*.map
+
+# ===== IDE / OS =====
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ===== GeoIP =====
+*.mmdb
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+
+# ===== Flask / Uploads =====
+uploads/*.csv
+!uploads/telnet.pcap
+uploads/*.txt
+
+# ===== Root duplicates (keep only docs/ versions) =====
+/7arth book.docx
+/project presentation .pptx
+
+# ===== Temp files =====
+docx_output.txt
+
+# ===== Logs =====
+*.log

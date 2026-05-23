@@ -1,0 +1,35 @@
+# ... imports & global variables ...
+
+UPLOAD_FOLDER = 'uploads'
+os.makedirs(UPLOAD_FOLDER, exist_ok=True)
+
+# Authentication Decorators
+def token_required(f):
+    @wraps(f)
+    def decorated(*args, **kwargs):
+        # ...الكود...
+        return f(*args, **kwargs)
+    return decorated
+
+def permission_required(permission):
+    def decorator(f):
+        @wraps(f)
+        def decorated(*args, **kwargs):
+            # ...الكود...
+            return f(*args, **kwargs)
+        return decorated
+    return decorator
+
+def admin_required(f):
+    @wraps(f)
+    def decorated(*args, **kwargs):
+        # ...الكود...
+        return f(*args, **kwargs)
+    return decorated
+
+# باقي الكود: تعريف المسارات مثل /upload وغيرها
+@app.route('/upload', methods=['POST'])
+@token_required
+@permission_required('write')
+def upload_file():
+    # ...الكود...
