@@ -12,12 +12,8 @@
     <a href="https://www.python.org/downloads/">
       <img src="https://img.shields.io/badge/python-3.10%2B-blue" alt="Python 3.10+"/>
     </a>
-    <a href="https://github.com/Amrtarek113/7arth/actions">
-      <img src="https://img.shields.io/github/actions/workflow/status/Amrtarek113/7arth/deploy-pages.yml?label=GitHub%20Pages" alt="Deploy status"/>
-    </a>
-    <a href="https://github.com/Amrtarek113/7arth/actions">
-      <img src="https://img.shields.io/github/actions/workflow/status/Amrtarek113/7arth/lint-test.yml?label=tests" alt="Tests status"/>
-    </a>
+  
+  
   </p>
 </div>
 
