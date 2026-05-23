@@ -192,7 +192,7 @@ alert_rules = []
 alerts_lock = threading.Lock()
 
 # GeoIP Setup
-GEOIP_DB_PATH = os.path.join(os.path.dirname(__file__), 'GeoLite2-City.mmdb')  # File exists in the same directory
+GEOIP_DB_PATH = os.path.join(os.path.dirname(__file__), 'GeoLite2-City.mmdb')
 geoip_reader = None
 try:
     geoip_reader = geoip2.database.Reader(GEOIP_DB_PATH)

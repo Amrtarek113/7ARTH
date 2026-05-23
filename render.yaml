@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: 7arth-dashboard
+    runtime: python
+    region: frankfurt
+    plan: free
+    branch: main
+    buildCommand: pip install -r "Dashboard Site/backend/requirements.txt"
+    startCommand: cd "Dashboard Site/backend" && gunicorn app:app --bind 0.0.0.0:$PORT --workers 2 --timeout 120 --log-level info
+    envVars:
+      - key: FLASK_ENV
+        value: production
+      - key: JWT_SECRET_KEY
+        generateValue: true

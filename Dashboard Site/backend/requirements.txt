@@ -11,5 +11,7 @@ prometheus-flask-exporter==0.23.0
 joblib==1.4.2
 python-dotenv==1.0.1
 gunicorn==22.0.0
+geoip2==4.8.1
+requests==2.32.3
 streamlit==1.35.0
 plotly==5.22.0

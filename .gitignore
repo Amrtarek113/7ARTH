@@ -19,10 +19,13 @@
 *.pt
 *.onnx
 *.save
-!**/random_forest_model_multiclass.pkl
+!Dashboard Site/backend/random_forest_model_multiclass.pkl
+!Dashboard Site/backend/attack_label_encoder.pkl
+!Dashboard Site/backend/scaler.pkl
+!Dashboard Site/backend/cat_encoders.pkl
 !**/xgb.pkl
 !**/knn_gs.pickle
-!**/extra_trees_model.pkl
+!7arth/attack_detect/model/extra_trees_model.pkl
 
 # ===== Python =====
 __pycache__/
@@ -32,7 +35,8 @@ __pycache__/
 *.egg-info/
 dist/
 build/
-*.egg
+!Dashboard Site/backend/build/
+!Dashboard Site/backend/build/**
 .venv/
 venv/
 env/
@@ -55,6 +59,7 @@ Desktop.ini
 
 # ===== GeoIP =====
 *.mmdb
+!Dashboard Site/backend/GeoLite2-City.mmdb
 
 # ===== Jupyter =====
 .ipynb_checkpoints/
