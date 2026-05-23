@@ -3,20 +3,20 @@
   <h1>7arth — Network Intrusion Detection System</h1>
   <p><strong>Multi-Module AI-Powered NIDS with Real-Time Dashboard</strong></p>
   <p>
-    <a href="https://github.com/YOUR_USERNAME/7arth/blob/main/LICENSE">
+    <a href="https://github.com/Amrtarek113/7arth/blob/main/LICENSE">
       <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License: MIT"/>
     </a>
-    <a href="https://github.com/YOUR_USERNAME/7arth">
-      <img src="https://img.shields.io/github/repo-size/YOUR_USERNAME/7arth" alt="GitHub repo size"/>
+    <a href="https://github.com/Amrtarek113/7arth">
+      <img src="https://img.shields.io/github/repo-size/Amrtarek113/7arth" alt="GitHub repo size"/>
     </a>
     <a href="https://www.python.org/downloads/">
       <img src="https://img.shields.io/badge/python-3.10%2B-blue" alt="Python 3.10+"/>
     </a>
-    <a href="https://github.com/YOUR_USERNAME/7arth/actions">
-      <img src="https://img.shields.io/github/actions/workflow/status/YOUR_USERNAME/7arth/deploy-pages.yml?label=GitHub%20Pages" alt="Deploy status"/>
+    <a href="https://github.com/Amrtarek113/7arth/actions">
+      <img src="https://img.shields.io/github/actions/workflow/status/Amrtarek113/7arth/deploy-pages.yml?label=GitHub%20Pages" alt="Deploy status"/>
     </a>
-    <a href="https://github.com/YOUR_USERNAME/7arth/actions">
-      <img src="https://img.shields.io/github/actions/workflow/status/YOUR_USERNAME/7arth/lint-test.yml?label=tests" alt="Tests status"/>
+    <a href="https://github.com/Amrtarek113/7arth/actions">
+      <img src="https://img.shields.io/github/actions/workflow/status/Amrtarek113/7arth/lint-test.yml?label=tests" alt="Tests status"/>
     </a>
   </p>
 </div>
@@ -119,7 +119,7 @@
 ### 1. Clone
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/7arth.git
+git clone https://github.com/Amrtarek113/7arth.git
 cd 7arth
 ```
 
