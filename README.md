@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="docs/images/logo.png" alt="7arth Logo" width="120"/>
+  <img src="[docs/images/logo.png](https://github.com/Amrtarek113/7ARTH/blob/main/docs/images/7ARTH%20(1).png)" alt="7arth Logo" width="120"/>
   <h1>7arth — Network Intrusion Detection System</h1>
   <p><strong>Multi-Module AI-Powered NIDS with Real-Time Dashboard</strong></p>
   <p>
