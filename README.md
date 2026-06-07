@@ -23,7 +23,7 @@
 
 **7arth** is a comprehensive, multi-module Network Intrusion Detection System (NIDS) developed as a graduation project. It combines traditional machine learning models, deep learning (GRU/LSTM), autoencoders for IoT, ransomware detection, URL phishing detection, APT attack detection, and a real-time interactive dashboard — all in one unified platform.
 
-> **Supervised by:** Dr. Walid Gabril, Dr. Shaimaa El-Sabbagh, Eng. Amira Basyouni, Eng. Shorouk Abdel-Nasser  
+> **Supervised by:** Dr. Walid Gaballah , Dr. Shaimaa El-Sabbahi, Eng. Amira Basuoni, Eng. Shrouk El-Boghdady  
 > **Team:** Amr Tarek, Mahmoud Magdi, Ahmed Mostafa, Fatma Mohamed, Merna Elsayed, Israa Ibrahim, Doaa Ibrahim, Diaa Mohamed, Hager Ibrahim, Ahmed Mohamed Abdelaziz
 
 ---
